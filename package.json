@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "node scripts/install.js"
-  },
+  "private": true,
   "dependencies": {
     "prettier": "^1.11.1",
     "shelljs": "^0.8.1"
   },
-  "prettier": {}
+  "prettier": {},
+  "workspaces": [
+    "01-imperative-to-declarative",
+    "02-hocs-render-props",
+    "03-clone-element",
+    "04-context",
+    "05-portals",
+    "06-wai-aria",
+    "07-gsbu",
+    "08-gdsfp",
+    "09-suspense"
+  ]
 }
